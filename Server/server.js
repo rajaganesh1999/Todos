@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://rajaganesh:abcd1234@cluster0.bctvimj.mongodb.net/?retryWrites=true&w=majority&appName=todos', {
+mongoose.connect('mongodb+srv://username:password@cluster0.bctvimj.mongodb.net/?retryWrites=true&w=majority&appName=todos', {
 }).then(() => {
   console.log('MongoDB database connection established successfully');
 }).catch((error) => {
